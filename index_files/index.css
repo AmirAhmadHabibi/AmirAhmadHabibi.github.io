@@ -72,10 +72,7 @@ img.responsive-img{max-width:100%;width:2.9rem;height:auto;margin-left:auto;marg
 	html{font-size:13px;}
 }
 
-@media only screen and (max-width:390px)
-{
-	html{font-size:12px;}
-}
+
 @media only screen and (min-width:993px)
 {
 	.container{width:70%}

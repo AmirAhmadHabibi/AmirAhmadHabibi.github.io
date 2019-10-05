@@ -1,3 +1,0 @@
-
-            scp -r ./* amirahma@gpu.srv.ualberta.ca:~/public_html/
-            scp -r ./* amirahma@innisfree.cs.ualberta.ca:/compsci/webdocs/amirahma/web_docs/public_html/

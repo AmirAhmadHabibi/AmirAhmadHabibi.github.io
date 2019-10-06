@@ -61,11 +61,12 @@
                         <div class="interests col s12 m12 l10 wow fadeIn animated" > 
                             <h2>README
                                 <p style="font-size: 1rem;line-height: 1.4rem;">
-                                <a href="#education">I'm a master's student at the University of Alberta </a> under the supervision of <a href="https://webdocs.cs.ualberta.ca/~kondrak/" target="_blank"> Dr. Greg Kondrak,</a>
+                                <a href="#education">I'm a master's student at the University of Alberta </a> 
+                                under the supervision of <a href="https://webdocs.cs.ualberta.ca/~kondrak/" target="_blank"> Dr. Greg Kondrak,</a>
                                 <a href="#research"> doing research in natural language processing.</a>
                                 <!-- <a href="#interests"> Since my interest is in the study of Linguistics and AI,</a> 
                                 <a href="#research"> I've been working on projects in this regard, which are described briefly below.</a> -->
-                            </br> </br><span> You can download my<a href="./index_files/AmirAhmad_Habibi_CV.pdf" target="_blank"> complete CV in PDF here.</a></span>
+                            </br> </br><span> You can find my<a href="./index_files/AmirAhmad_Habibi_CV.pdf" target="_blank"> complete CV in PDF here.</a></span>
                         </p>
 
                             </h2>
@@ -578,8 +579,34 @@
  		<!--=====================
                 JavaScript
         ===================== -->
-        <script src="js/jquery-3.1.1.js"></script>
-        <script src="js/index2.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        </script>
        
 
 

@@ -1,10 +1,10 @@
 html{font-family:Roboto Slab;box-sizing:border-box;line-height:1.5;font-weight:400;font-size:16px;color:rgba(0,0,0,.87)}
 body{margin:0;font-size:16px;color:#767270;text-align:center;background-color:#141414;color:#b9b9b9}
 main,section{display:block}
-h1,h2,h3,h4,h5,h6{font-weight:400}
+h1,h4,h5,h6{font-weight:400}
 h1 a,h3 a,h4 a,h5 a,h6 a{}
 h2,h3{font-weight:500}
-h2{font-size:1.8rem;margin:0}
+h2{font-size:1.8rem;line-height:2rem;margin:0}
 h3{font-size:1.15rem;line-height:1.5rem;font-weight:400;margin:0 0 0}
 h4{font-size:1rem;line-height:1.4rem;margin-bottom:0;margin-top: 0}
 h4 p, h4 span{font-size:0.9rem; font-weight: 300}
@@ -49,7 +49,7 @@ img.responsive-img{max-width:100%;width:2.9rem;height:auto;margin-left:auto;marg
 .section .section-wrapper-pic{background-color:#1e1e1e;display:flex;overflow:hidden;margin-top:24pt;margin-bottom:15px;padding-top: 4%;;padding-left:0;padding-right:0;border-radius:2pt}
 .section .section-wrapper{background-color:#1e1e1e;border-radius:2pt;overflow:hidden;margin-bottom:15pt;padding-bottom:20pt!important;padding-top:20pt;}
 .section .section-wrapper .section-icon{display:flex;align-items:center;padding-right:4%;padding-left:4%;margin-top: -4pt;}
-.section .section-wrapper h2{margin-bottom:15px}
+.section .section-wrapper h2{margin-bottom:15px;margin-top: 5px}
 .custom-content{padding-right:0!important}
 .custom-content-wrapper{margin-bottom:16px}
 @media only screen and (min-width:601px)

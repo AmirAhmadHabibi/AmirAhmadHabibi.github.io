@@ -1,5 +1,5 @@
 html{font-family:Roboto Slab;box-sizing:border-box;line-height:1.5;font-weight:400;font-size:16px;color:rgba(0,0,0,.87)}
-body{margin:0;font-size:16px;color:#767270;text-align:center;background-color:#141414;color:#b9b9b9}
+body{position:relative;margin:0;font-size:16px;color:#767270;text-align:center;background-color:#141414;color:#b9b9b9}
 main,section{display:block}
 h1,h4,h5,h6{font-weight:400}
 h1 a,h3 a,h4 a,h5 a,h6 a{}
@@ -12,7 +12,11 @@ p{font-weight:300;font-size:1rem;line-height:1.4rem;margin-top:0;margin-bottom:0
 a{color:#b9b9b9;background-color:transparent}
 a{text-decoration:none}
 a t2:hover,a:active,a:hover,t1 span:hover,t1:active,t1:hover{outline:0 none;color:#d1891f}
-svg.mail :hover { fill: #d1891f;}
+a.mail :hover{fill: #d1891f;}
+a.cvpdf{fill: #000000; mix-blend-mode: lighten}
+a.cvpdf:hover{fill:#b9b9b9;}
+#rect14 {fill: #8d5f1a;}
+/* #rect14:hover { fill: #b9b9b9;} */
 a t2{color:#a08a69}
 img{border:0 none}
 *,::after,::before{box-sizing:inherit}
@@ -65,7 +69,7 @@ img.responsive-img{max-width:100%;width:2.9rem;height:auto;margin-left:auto;marg
 		text-align: justify;
 		z-index: -1;
 		overflow: hidden;
-		height: 2750pt;
+		height: 100%;
 	}
 }
 @media only screen and (max-width:600px)
@@ -117,7 +121,7 @@ img.responsive-img{max-width:100%;width:2.9rem;height:auto;margin-left:auto;marg
 {
 	.container{width:100%!important;margin-top:0!important}
 	.row{overflow-x:hidden!important}
-	.section{text-align:center;margin-top:30px;padding:0!important}
+	.section{text-align:center;padding:0!important}
 	.section .section-wrapper .section-icon { margin-top: 0; }
 	.section .section-wrapper h2 { margin-top: 0}
 	.section .custom-content-wrapper a,h2 p a,h3 a{border-bottom:dotted 1px rgba(125,125,125,.5)}
@@ -131,7 +135,7 @@ img.responsive-img{max-width:100%;width:2.9rem;height:auto;margin-left:auto;marg
 }
 
 date{color:#788452; font-weight: 400;font-size: 0.9rem}
-.profile-pic{width:23%; height: 5.3rem;}
-img.profile-image{width:212%;margin-top:-26%;margin-left:-8%}
+.profile-pic{width:23%; margin-bottom: -36px;}
+img.profile-image{width:466%;margin-top:-20%;margin-left:-8%}
 top-name{font-weight: 300;text-align: left;font-size:2.55rem;margin-top: 4pt;margin-bottom: -4pt;line-height: 2.3rem}
 img.mail-img{width:3.5%;margin-bottom:-2pt;margin-left:6pt}
